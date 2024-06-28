@@ -67,7 +67,7 @@ function remove(req: Request, res: Response) {
   if (!cliente) {
     res.status(404).send({ message: 'Cliente not found' })
   } else {
-    res.status(200).send({ message: 'Cliente deleted successfullyy' })
+    res.status(200).send({ message: 'Cliente deleted successfully' })
   }
 }
 
